@@ -2,4 +2,6 @@
     <string name="app_name">UMusic</string>
     <string name="open">Open</string>
     <string name="close">Close</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_settings">Settings</string>
 </resources>

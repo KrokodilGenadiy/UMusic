@@ -26,9 +26,8 @@ class MainActivity : AppCompatActivity() {
 
         binding.navView.setNavigationItemSelectedListener {
             when (it.itemId) {
-                R.id.item1 -> Toast.makeText(applicationContext,"Clicked Item 1",Toast.LENGTH_SHORT).show()
-                R.id.item2 -> Toast.makeText(applicationContext,"Clicked Item 2",Toast.LENGTH_SHORT).show()
-                R.id.item3 -> Toast.makeText(applicationContext,"Clicked Item 3",Toast.LENGTH_SHORT).show()
+                R.id.nav_home -> Toast.makeText(applicationContext,"Clicked Item 1",Toast.LENGTH_SHORT).show()
+                R.id.nav_settings -> Toast.makeText(applicationContext,"Clicked Item 2",Toast.LENGTH_SHORT).show()
             }
             true
         }
